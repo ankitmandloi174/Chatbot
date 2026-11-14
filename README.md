@@ -8,7 +8,9 @@ Chat with many CSV files at once. Ask questions in plain English and get an answ
   Your viewer cannot play embedded video.
 </video>
 
-▶ [Watch the working demo](working-demo.webm) (about 5 MB, WebM)
+[![Watch Demo](https://img.shields.io/badge/Watch-Demo-red?logo=github)](https://github.com/user-attachments/assets/6e748cf8-891f-4dc4-beef-d2731b40924c)
+
+
 
 **Contents**
 
