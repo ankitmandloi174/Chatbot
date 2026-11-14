@@ -35,7 +35,7 @@ export function Sidebar({ datasets, chat, onCollapse, onNavigate }: SidebarProps
             <span className="brand__mark">
               <SparkIcon width={14} height={14} />
             </span>
-            <span className="brand__name">CSV Chat Analyst</span>
+            <span className="brand__name">DataPilot</span>
           </div>
           <button className="icon-button" onClick={onCollapse} aria-label="Collapse sidebar">
             <SidebarIcon />

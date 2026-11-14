@@ -1,14 +1,10 @@
-# CSV Chat Analyst
+# DataPilot
 
 Chat with many CSV files at once. Ask questions in plain English and get an answer backed by **actually computed** results, plus tables and interactive charts when they help.
 
 ## Demo
 
-<video src="working-demo.webm" controls muted width="100%">
-  Your viewer cannot play embedded video.
-</video>
-
-▶ [Watch the working demo](working-demo.webm) (about 5 MB, WebM)
+https://github.com/user-attachments/assets/6e748cf8-891f-4dc4-beef-d2731b40924c
 
 **Contents**
 

@@ -24,7 +24,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     engine = create_db_engine(settings.database_url)
     init_db(engine)
 
-    app = FastAPI(title="CSV Chat Analyst", version="1.0.0")
+    app = FastAPI(title="DataPilot", version="1.0.0")
     app.state.settings = settings
     app.state.session_factory = create_session_factory(engine)
     app.state.vector_store = ColumnVectorStore(settings.chroma_dir)
