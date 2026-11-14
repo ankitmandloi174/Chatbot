@@ -1,0 +1,53 @@
+* { box-sizing: border-box; }
+
+html, body, #root { height: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, p { margin: 0; }
+code { font-family: var(--font-mono); font-size: 0.85em; }
+ul { list-style: none; margin: 0; padding: 0; }
+
+button { font: inherit; color: inherit; cursor: pointer; border: 0; background: none; padding: 0; }
+button:disabled { cursor: not-allowed; }
+:focus-visible { outline: 2px solid var(--accent-ring); outline-offset: 2px; border-radius: 6px; }
+
+::selection { background: var(--accent-ring); }
+* { scrollbar-width: thin; scrollbar-color: var(--border-strong) transparent; }
+
+.muted { color: var(--muted); }
+.empty-note { color: var(--muted); font-size: 13px; padding: 4px 2px; }
+
+.error-text { color: var(--danger); font-size: 13px; margin-top: 8px; }
+.alert { background: var(--danger-soft); border-radius: var(--radius-sm); padding: 10px 12px; }
+
+/* Buttons */
+.button {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  height: 36px; padding: 0 14px; border-radius: var(--radius-sm);
+  font-weight: 500; transition: transform var(--duration) var(--ease), box-shadow var(--duration) var(--ease), background var(--duration);
+}
+.button--block { width: 100%; }
+.button--primary { background: var(--accent-gradient); color: var(--on-accent); box-shadow: var(--shadow-sm), inset 0 1px 0 rgba(255, 255, 255, 0.18); }
+.button--primary:hover { transform: translateY(-1px); box-shadow: 0 6px 18px var(--accent-ring); }
+.button--primary:active { transform: translateY(0); }
+
+.icon-button {
+  display: inline-grid; place-items: center; width: 28px; height: 28px; flex: none;
+  border-radius: 7px; color: var(--muted);
+  transition: background var(--duration), color var(--duration);
+}
+.icon-button:hover { background: var(--surface-hover); color: var(--text); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
