@@ -4,7 +4,13 @@ Chat with many CSV files at once. Ask questions in plain English and get an answ
 
 ## Demo
 
-https://github.com/user-attachments/assets/6e748cf8-891f-4dc4-beef-d2731b40924c
+<video src="working-demo.webm" controls muted width="100%">
+  Your viewer cannot play embedded video.
+</video>
+
+[![Watch Demo](https://img.shields.io/badge/Watch-Demo-red?logo=github)](https://github.com/user-attachments/assets/6e748cf8-891f-4dc4-beef-d2731b40924c)
+
+
 
 **Contents**
 
